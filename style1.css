@@ -1,0 +1,55 @@
+.nav{
+    position: relative;
+}
+.navbtn{
+    display: none;
+    background: transparent;
+    cursor: pointer;
+}
+#navicon{
+    font-size: 4rem;
+ }
+ .navbtn .bx-x{
+    display: none;}
+
+
+@media(max-width:980px){
+    .navbtn{
+        display: block;
+        z-index: 999;
+        border: 1px solid black;
+    }
+    .navi{
+        width: 100%;
+        height: 100vh;
+        background-color: #9d64b4;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100%);
+        transition:all .5s linear;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .active .navi{
+        transform: translateX(0);
+        visibility: visible;
+        pointer-events: auto;
+        opacity: 1;
+    }
+    .active .navbtn #navicon .bx-x{
+        display:block;
+    }
+    .active .navbtn #navicon .bx-menu{
+        display: none;
+    }
+
+}

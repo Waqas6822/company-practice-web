@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.nav{
+    width: 100%;
+    height: 100vh;
+    background: #9b59b6;
+}
+.nav .navbar {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    color: #9b59b6;
+    width: 100%;
+    height: 20px;
+}
+.nav .navbar .list{
+    display: flex;
+}
+.nav .navbar img{
+    height: 50px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.nav .navbar .list li{
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+.nav .navbar .list li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav .main .text{
+    padding: 200px 100px;
+    color: white;
+}
+.nav .main .text h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.nav .main .text .p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.nav .main img{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.nav .main .img .p{
+    display: inline-block;
+}
+.nav .images img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    padding: 40px 20px;
+    margin: 80px;
+}
+.nav .end img{
+    position: absolute;
+    top: 82vh;
+    width: 100%;
+
+}
+.main2 {
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+}
+.main2 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.main2 .carts {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.main2 .carts .cart{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.main2 .carts .cart img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+}
+.main2 .carts .cart h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.main2 .btns{
+    padding: 30px;
+}
+.main2 .btn{
+    background-color: #9b59b6;
+    color: white;
+    border: 1px solid #9b59b6;
+    border-radius: 20px;
+    border-radius: 20px;
+    padding: 12px 20px;
+}
+.main2 .btn:hover{
+    background-color: white;
+    color: black;
+    border-color: #9b59b6;
+}
+.main3 {
+    background: rgb(220, 217, 217);
+    padding: 40px;
+    width: 100%;
+    height: 100vh;
+}
+.main3 h1{
+    font-size: 30px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+}
+
+.main3 .deff{
+    justify-content: space-between;
+    display: flex;
+    padding: 30px 50px;
+}
+.main3 .deff .tex{
+    padding:40px 70px;
+}
+.main3 .deff .tex ul li{
+    font-weight: 500;
+
+}
+.client{
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+}
+.client h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.client .say{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 100px 150px;
+}
+.client .say .user p{
+    font-weight: 500;
+    font-size: 16px;
+}
+.client .say .user .img{
+    display: flex;
+    padding: 10px;
+}
+.client .say .user img{
+    border-radius: 100%;
+    width: 80px;
+}
+.client .say .user h3{
+    padding: 10px;
+}
+.client .say .user .img p{
+    padding: 20px;
+}
+.find{
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+}
+.find h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+}
+.find .social{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.find .social img{
+    width: 150px;
+}
+.footer{
+    width: 100%;
+    height: 30vh;
+    background: #9b59b6;
+}
+.footer img{
+    width: 100%;
+}
+.footer .logo{
+    width: 200px;
+}
+.footer h4{
+    color: white;
+    float: right;
+    padding: 20px;
+}
